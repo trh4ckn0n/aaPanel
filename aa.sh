@@ -23,11 +23,11 @@ read -p "Choisissez une option (1 ou 2): " install_choice
 if [[ "$install_choice" == "1" ]]; then
     info "Vous avez choisi d'installer la version gratuite d'aaPanel."
     VERSION="free"
-    URL="https://www.aapanel.com/script/install_7.0_en.sh"
+    URL="https://raw.githubusercontent.com/trh4ckn0n/aaPanel/refs/heads/master/install_7.0_en.sh"
 elif [[ "$install_choice" == "2" ]]; then
     info "Vous avez choisi d'installer la version Pro d'aaPanel (14 jours gratuits)."
     VERSION="pro"
-    URL="https://www.aapanel.com/script/install_pro_en.sh"
+    URL="https://raw.githubusercontent.com/trh4ckn0n/aaPanel/refs/heads/master/install_pro_en.sh"
 else
     error "Choix invalide, l'installation est annulée."
     exit 1
