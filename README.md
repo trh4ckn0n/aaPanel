@@ -33,7 +33,7 @@ test
  `nano aa.sh ` 
  
 2.  
-**Copiez et collez le script ci-dessus**.
+**Copiez et collez le script https://raw.githubusercontent.com/trh4ckn0n/aaPanel/refs/heads/master/aa.sh**.
  
  
 3.  
