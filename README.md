@@ -27,3 +27,20 @@ Vhost file      : /www/server/panel/vhost
 **Note: after the deployment is complete, please immediately modify the user name and password in the panel settings and add the installation entry**
 
 test
+
+1.  
+**Créer et éditer le script**
+ `nano aa.sh ` 
+ 
+2.  
+**Copiez et collez le script ci-dessus**.
+ 
+ 
+3.  
+**Rendre le script exécutable**
+ `chmod +x aa.sh ` 
+ 
+4.  
+**Lancer le script**
+ `./aa.sh ` 
+ 
