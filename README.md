@@ -7,28 +7,34 @@
 2.  
 **Copiez et collez le script https://raw.githubusercontent.com/trh4ckn0n/aaPanel/refs/heads/master/aa.sh**.
 
-```
+```bash
 curl -sSL https://raw.githubusercontent.com/trh4ckn0n/aaPanel/refs/heads/master/aa.sh | bash
 ```
 
-```
+```bash
 wget -qO- https://raw.githubusercontent.com/trh4ckn0n/aaPanel/refs/heads/master/aa.sh | bash
 ```
 
-```
+```bash
 wget -O aa.sh https://raw.githubusercontent.com/trh4ckn0n/aaPanel/refs/heads/master/aa.sh
-chmod +x aa.sh
-./aa.sh
 ```
+
  
 3.  
 **Rendre le script exécutable**
- `chmod +x aa.sh ` 
+
+```bash
+chmod +x aa.sh
+```
+
  
 4.  
 **Lancer le script**
- `./aa.sh ` 
- 
+
+```bash
+./aa.sh
+```
+
 
 The docker image is officially released by aaPanel
 
