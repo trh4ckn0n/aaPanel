@@ -34,7 +34,20 @@ test
  
 2.  
 **Copiez et collez le script https://raw.githubusercontent.com/trh4ckn0n/aaPanel/refs/heads/master/aa.sh**.
- 
+
+```
+curl -sSL https://raw.githubusercontent.com/trh4ckn0n/aaPanel/refs/heads/master/aa.sh | bash
+```
+
+```
+wget -qO- https://raw.githubusercontent.com/trh4ckn0n/aaPanel/refs/heads/master/aa.sh | bash
+```
+
+```
+wget -O aa.sh https://raw.githubusercontent.com/trh4ckn0n/aaPanel/refs/heads/master/aa.sh
+chmod +x aa.sh
+./aa.sh
+```
  
 3.  
 **Rendre le script exécutable**
