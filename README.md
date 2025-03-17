@@ -2,10 +2,16 @@
 
 1.  
 **Créer et éditer le script**
- `nano aa.sh ` 
+```
+nano aa.sh
+``` 
  
-2.  
-**Copiez et collez le script https://raw.githubusercontent.com/trh4ckn0n/aaPanel/refs/heads/master/aa.sh**.
+3.  
+**Copiez et collez le script :**
+```markdown
+https://raw.githubusercontent.com/trh4ckn0n/aaPanel/refs/heads/master/aa.sh
+```
+
 
 ```bash
 curl -sSL https://raw.githubusercontent.com/trh4ckn0n/aaPanel/refs/heads/master/aa.sh | bash
